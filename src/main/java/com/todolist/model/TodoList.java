@@ -10,7 +10,7 @@ import java.time.Instant;
 @Getter
 @Setter
 @Entity
-@Table(name = "todo_list")
+@Table(name = "todo_lists")
 public class TodoList implements Serializable {
 
     @Id
